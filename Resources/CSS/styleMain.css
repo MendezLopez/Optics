@@ -1,0 +1,178 @@
+﻿html{
+    font-size: 18px;
+}
+body{
+
+}
+#container{
+    display: flex;
+    width: 960px;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+/*Top off page header and Nav */
+#TopHeader {
+    padding-top: 1rem;
+    height: 29rem;
+    background-image: url('../Images/glasses-bg.png');
+    background-position: center;
+    background-size: cover;
+}
+#logoNavigation{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+#logoTest{
+    padding-left: 1rem;
+}
+#logoImage{
+    padding-left: 2rem;
+}
+#logoImage img{
+    height: 1.5rem;
+}
+#navigationPDA{
+    display: none;
+}
+
+#navigation nav{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    word-spacing: 2rem;
+}
+#navigation li{
+    display: inline;
+    list-style-type: none;
+}
+#mainBanner{
+    margin-top: 10rem;
+    padding: 1.5rem 5rem;
+    background-color: white;
+    width: auto;
+
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+    border: 1px solid red;
+
+    position: relative;
+    float: right;
+}
+
+/*Services  */
+#ServicesGrid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.ServicesListPage{
+    width: 3.5rem;
+    height: 8rem;
+}
+.ServicesListPage img{
+    width: 3.5rem;
+    height: 6rem;
+    margin: auto;
+}
+
+.ServicesList{
+    width: 5rem;
+    height: 8rem;
+}
+.ServicesList img{
+    width: 5rem;
+    height: 3rem;
+    margin: auto;
+}
+.ServicesListTest{
+    padding-top: 2rem;
+    text-align: center;
+}
+/*Phylosophy and Appointments*/
+#PhilosophyAppointments{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+    
+}
+#appointments{
+    width: 35%;
+    margin-left: 5%;
+}
+#phylosophy{
+    width: 35%;
+    margin-left: 5%;
+}
+.title{
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    width: 10rem;
+    padding-left: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.test{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+/*Footer */
+footer{
+    background-color: azure;
+    padding: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: flex-start;
+
+}
+footer img{
+    height: 1.5rem;
+}
+#footerTest{
+    padding-left: 1rem;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+    #mainBanner {
+        width: 100%;
+        margin-right: 0rem;
+        margin-left: 0;
+    }
+
+    #ServicesGrid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #PhilosophyAppointments{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+}

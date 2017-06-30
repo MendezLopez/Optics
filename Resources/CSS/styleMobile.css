@@ -1,0 +1,22 @@
+﻿@media only screen and (max-width: 420px) {
+    #mainBanner {
+        width: 100%;
+        margin-right: 0rem;
+        margin-left: 0;
+    }
+
+    #ServicesGrid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #PhilosophyAppointments{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+}
+
