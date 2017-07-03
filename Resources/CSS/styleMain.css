@@ -6,7 +6,6 @@ body{
 }
 #container{
     display: flex;
-    width: 960px;
     flex-direction: column;
     margin: 0px auto;
 }
@@ -18,6 +17,7 @@ body{
     background-image: url('../Images/glasses-bg.png');
     background-position: center;
     background-size: cover;
+
 }
 #logoNavigation{
     display: flex;
@@ -26,6 +26,8 @@ body{
     width: 100%;
     background-color: cadetblue;
     color: white;
+    width: 960px;
+    margin: 0px auto;
 }
 #logo{
     display: flex;
@@ -36,6 +38,7 @@ body{
 }
 #logoTest{
     padding-left: 1rem;
+     
 }
 #logoImage{
     padding-left: 2rem;
@@ -71,6 +74,7 @@ body{
 
     position: relative;
     float: right;
+    margin-right: -2rem;
 }
 
 /*Services  */
@@ -82,6 +86,8 @@ body{
     flex-direction: row;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    width: 960px;
+    margin: 0px auto;
 }
 .ServicesListPage{
     width: 3.5rem;
@@ -112,8 +118,8 @@ body{
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    
-    
+    width: 960px;
+    margin: 0px auto;
 }
 #appointments{
     width: 35%;
@@ -144,7 +150,8 @@ footer{
     justify-content: flex-start;
     flex-direction: row;
     align-content: flex-start;
-
+    width: 960px;
+    margin: 0px auto;
 }
 footer img{
     height: 1.5rem;
@@ -153,26 +160,3 @@ footer img{
     padding-left: 1rem;
 }
 
-
-
-@media only screen and (max-width: 420px) {
-    #mainBanner {
-        width: 100%;
-        margin-right: 0rem;
-        margin-left: 0;
-    }
-
-    #ServicesGrid {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    #PhilosophyAppointments{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        border: 1px solid red;
-    }
-}

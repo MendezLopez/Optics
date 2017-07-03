@@ -1,4 +1,8 @@
 ﻿@media only screen and (max-width: 420px) {
+    #container {
+        width: 100%;
+    }
+
     #mainBanner {
         width: 100%;
         margin-right: 0rem;
@@ -11,12 +15,48 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
-    #PhilosophyAppointments{
+
+    #PhilosophyAppointments {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;
-        border: 1px solid red;
+        width: 100%;
+        border: 0;
+    }
+
+    .ServicesListPage {
+        margin: 0px auto;
+        padding-bottom: 4rem;
+    }
+
+    .ServicesList {
+        margin: 0px auto;
+        padding-bottom: 2rem;
+    }
+
+    #appointments {
+        width: 90%;
+    }
+
+    #phylosophy {
+        width: 90%;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .test {
+        width: 100%;
+    }
+    #logoImageBlack{
+        margin: 0px auto;
+    }
+    footer{
+        width: 100%;
+    }
+    #footerTest{
+        display: none;
     }
 }
-
